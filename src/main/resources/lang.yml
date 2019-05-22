@@ -1,0 +1,35 @@
+PLUGIN_TITLE: '称号插件'
+#无权限提醒
+COMMAND_PERMISSIONDENIEDMESSAGE: '&4你没有使用 /{0} 命令的权限'
+#不属于命令执行范围，如玩家无法执行控制台命令，控制台无法执行玩家的命令
+COMMAND_NOCOMMANDSENDERTYPEMESSAGE: '&4你使用的终端无法使用该命令'
+#参数列表不正确
+COMMAND_ARGS_ERROR: '&4参数列表不正确'
+#命令未找到
+COMMAND_NOT_FOUND_COMMAND: '&4命令不存在'
+
+#------命令描述的语言配置------
+
+#帮助命令
+
+COMMAND_USEAGE_HELP: '&7/prefix &bhelp  &2| 显示帮助'
+COMMAND_USEAGE_REFRESH: '&7/prefix &brefresh  &2| 刷新自己的称号'
+COMMAND_USEAGE_GIVE: '&7/prefix &bgive 玩家 称号 &2| 给予玩家称号'
+COMMAND_USEAGE_LIST: '&7/prefix &blist &2| 显示拥有的称号列表'
+COMMAND_USEAGE_USE: '&7/prefix &buse 编号 &2| 应用称号，编号是list命令中显示的编号'
+COMMAND_USEAGE_UNUSE: '&7/prefix &bunuse &2|  取消使用称号'
+
+#------消息配置-----
+
+MESSAGE_TITLE: '&a[&e称号&a]'
+MESSAGE_OPERATION_ERROR: '&4操作失败'
+MESSAGE_REFRESH_PREFIX: '&a你已刷新称号'
+MESSAGE_LIST_PREFIX: '&a你拥有{0}个称号：'
+MESSAGE_LIST_PREFIX_DATA: '&7{0}: {1}'
+MESSAGE_GIVE_PREFIX: '&a给予{0} 称号 {1} &a成功'
+MESSAGE_GIVE_PREFIX_EXIST: '&4{0} 已具有 {1} &4称号'
+MESSAGE_GIVE_PREFIX_NOT_EXIST: '&4未找到编号 {0} 的称号'
+MESSAGE_USE_PREFIX: '&a你设置称号 {0}  &a设置成功'
+MESSAGE_UNUSE_PREFIX: '&a称号已取消'
+
+MESSAGE_PLAYER_NOTFOUND: '玩家{0}不存在或者不在线'
