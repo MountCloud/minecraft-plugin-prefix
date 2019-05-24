@@ -37,15 +37,15 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.mountcloud.mcplugin</groupId>
+			<groupId>org.mountcloud</groupId>
 			<artifactId>mc-plugin-common</artifactId>
 			<version>1.13-R0.1-SNAPSHOT-v1.0</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.mountcloud.mcplugin</groupId>
-			<artifactId>prefix-api</artifactId>
+			<groupId>org.mountcloud</groupId>
+			<artifactId>mc-plugin-prefix-api</artifactId>
 			<version>1.0</version>
 		</dependency>
 
